@@ -12,6 +12,7 @@ int main()
     }
     printf("sum = %d", x);
 #endif
+//addming following code that will work for -ve numbers also
     printf("enter the two number to add:\n");
     int a, b;
     scanf("%d %d", &a, &b);
@@ -32,6 +33,6 @@ int main()
             b--;
         }
     }
-    printf("sum of two numbers  = %d", b);
+    printf("sum of two numbers  = %d", b)
     return 0;
 }
